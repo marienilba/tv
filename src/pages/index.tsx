@@ -18,7 +18,7 @@ export default function Home() {
             className="border-pink-400 p-2 border-2 rounded hover:shadow-lg cursor-pointer transition-shadow duration-300 group shadow-pink-300"
           >
             <ChannelCard
-              className="h-32 w-32 relative group-hover:scale-105"
+              className="h-32 w-32 relative group-hover:scale-105 transition-transform duration-300"
               key={`${channel.name}/${index}`}
               name={channel.name}
             />
